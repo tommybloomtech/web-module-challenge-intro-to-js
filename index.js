@@ -37,8 +37,13 @@ Do the following:
    HINT: no function required
 */
 
-
-
+let firstThing = "green";
+let secondThing = "red";
+if(firstThing === "green") {
+    console.log('Your color is green');
+} else {
+  console.log('Your color is not green.');
+}
 
 
 /*
