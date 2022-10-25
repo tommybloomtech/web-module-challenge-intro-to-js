@@ -40,7 +40,7 @@ Do the following:
 let firstThing = "green";
 let secondThing = "red";
 if(firstThing === "green") {
-    console.log('Your color is green');
+    console.log('Your color is green.');
 } else {
   console.log('Your color is not green.');
 }
@@ -57,8 +57,9 @@ Do the following:
    HINT: look up the Number method
 */
 
-
-
+let year = "1999";
+Number("1999");
+console.log(`${year} is now a number!`);
 
 /*
 Task 1d - Multiply
