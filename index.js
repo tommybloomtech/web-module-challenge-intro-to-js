@@ -73,12 +73,11 @@ Do the following:
 
 
 function multiply(num1, num2){
-  return num1 * num2;
+  console.log(num1 * num2)
 }
 
-const totalMultiple = multiply(5,4);
+multiply(4,5);
 
-console.log(totalMultiple);
 
 
 
@@ -216,26 +215,11 @@ Use the game function below to do the following:
 RULES OF THE GAME: Scissors beats Paper | Paper beats Rock | Rock beats Scissors | Or there's a tie
 */
 
-function game(user, computer){
-  /*add your code here*/
-}
 
 
 
-/*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
-//Metric Converter 
-//Task 5a - Kilometers to Miles 
-/*
-Using the miles function below do the following:
-1. Receive a number of kilometers
-2. Convert the number of kiolmeters received to miles
-3. Return the number of miles
-*/
 
-function miles(/*add your code here*/){
-  /*add your code here*/
-}
 
 
 
