@@ -317,10 +317,13 @@ HINT - you may need to study tomorrow's content on arrays
 HINT - try looking up the .includes() method
 */
 
+const countVowels = str => Array.from(str)
+  .filter(letter => 'aeiou'.includes(letter)).length;
 
-function vowelCounter(/*add your code here*/) {
-  /*add your code here*/
-}
+console.log(countVowels('Hello'));
+
+
+
 
 
 
