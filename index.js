@@ -70,9 +70,31 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
+
 function multiply(num1, num2){
   return num1 * num2;
 }
+
+var multiply = (4 * 5);
+
+console.log(multiply);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
