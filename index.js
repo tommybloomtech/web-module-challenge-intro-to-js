@@ -323,10 +323,6 @@ const countVowels = str => Array.from(str)
 console.log(countVowels('Hello'));
 
 
-
-
-
-
 /*🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑*/
 function foo(){
   console.log('its working');
