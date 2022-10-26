@@ -81,9 +81,6 @@ multiply(4,5);
 
 
 
-
-
-
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
 //Age in Dog years
@@ -99,18 +96,6 @@ function dogYears(age) {
 }
 
 dogYears(22);
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -204,7 +189,7 @@ Use the game function below to do the following:
 RULES OF THE GAME: Scissors beats Paper | Paper beats Rock | Rock beats Scissors | Or there's a tie
 */
 
-let randomComputer = Math.random();
+let computer = Math.random();
 
 if(computer <= 0.34){
   computer = 'rock';
@@ -231,8 +216,22 @@ function game(user,computer){
 console.log(game('paper', computer));
 
 
+/*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
+//Metric Converter 
+//Task 5a - KM to Miles 
+/*
+Using the miles function below do the following:
+1. Receive a number of kilometers
+2. Convert the number of kiolmeters received to miles
+3. Return the number of miles
+*/
 
+function miles(km){
+  return km * 0.621371;
+}
+
+console.log(miles(2));
 
 
 //Task 5b - Centimeters to Feet
@@ -289,10 +288,21 @@ Using the grade function below do the following:
  below should return 'you got an F'
 */
 
-function grade(/*Your Code here */){
-/*Your Code here */
+function grade(number){
+  if(number >= 90){
+    return 'you got an A';
+  }else if(number < 90 && number >= 80){
+    return 'you got a B';
+  }else if(number < 80 && number >= 70){
+    return 'you got a C';
+  }else if(number < 70 && number >= 60){
+    return 'you got a D';
+  }else if (number < 60){
+    return 'you got an F';
+  }
 }
 
+console.log(grade(75));
 
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
